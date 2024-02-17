@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <!-- navigation section  -->
-    <nav>
-      <h2>DEEPAK RAJORIYA</h2>
-      <ul>
+  <body>
+    <header>
+      <!-- navigation section  -->
+      <nav>
+        <h2><span>D</span>EEPAK</h2>
+        <ul>
           <li><a href="#home">home</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#skills">skills</a></li>
@@ -24,207 +20,199 @@
           <li><a href="#projects">projects</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
-      
-      <div class="icon">
+
+        <div class="icon">
           <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home section  -->
+
+      <div class="home-section" id="home">
+        <div class="home-content">
+          <p class="p1">Frontend Developer</p>
+          <p class="p2">Hi, i'm <span>Deepak</span></p>
+          <p class="p2">Rajoriya From MP</p>
+          <!-- <button><a
+                href="DEEPAK RAJORIYA (3).pdf">Download
+                Resume</a></button> -->
+        </div>
+        <img src="images/deepak.png" alt="my image" />
       </div>
-      <!-- <div class="cross-icon">
-          <i class="fa-solid fa-xmark"></i>
-      </div> -->
-    </nav>
-  </header>
+      <hr>
 
+      <!-- about section  -->
 
-  <main>
-    <!-- Home section  -->
+      <div class="about-section" id="about">
+        <h3>About me</h3>
+        <div class="about-content">
+          <img src="images/deepak.png" alt="" />
 
-    <div class="home-section " id="home">
-      <div class="home-content">
-        <p class="p1">Hello i am</p>
-        <h3>Deeapk <span>Rajoriya</span></h3>
-        <p class="p1">Frontend Developer</p>
-        <button><a
-            href="DEEPAK RAJORIYA (3).pdf">Download
-            Resume</a></button>
-      </div>
-      <img src="images/deepak.png" alt="my image" />
-    </div>
-
-
-    <!-- about section  -->
-
-    <div class="about-section" id="about">
-      <h3>About me</h3>
-      <div class="about-content">
-        <img src="images/deepak.png" alt="" />
-
-        <div class="about-text">
-          <h2>Hi i am Frontend <span>Developer</span></h2>
-          <p>Experience: <span>Fresher</span></p>
-          <p>Speciality: <span>Frontend Development</span></p>
-          <p>
-            Skills: <span>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT</span>
-          </p>
-          <p>Email: <span>deepakrajoriya051@gmail.com</span></p>
+          <div class="about-text">
+            <h2>Hi I, am Frontend <span>Developer</span></h2>
+            <p>Experience: <span>Fresher</span></p>
+            <p>Speciality: <span>Frontend Development</span></p>
+            <p>
+              Skills: <span>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT</span>
+            </p>
+            <p>Email: <span>deepakrajoriya051@gmail.com</span></p>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
+      <hr>
 
+      <!-- skills section  -->
+      <div class="skills-section" id="skills">
+        <h2>Skills</h2>
 
-    <!-- skills section  -->
-    <div class="skills-section" id="skills">
-      <h2>Skills</h2>
+        <div class="skills">
 
-      <div class="skills">
-        <ul>
-          <li>HTML :<a
-              href="https://github.com/DEEPAKRAJORIYA352/HTML/commit/7cb53b8a090e1db277847cf9eb76cbb80045d489">github
-              Link</a></li>
+              <div class="card">
+                <img src="images/html.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                   <button class="buttons"><a href="#"> Github Link</a></button>
+                </div>
+              </div>
 
-          <li>CSS :<a href="https://github.com/DEEPAKRAJORIYA352/CSS/tree/main/2.CSS">github Link</a></li>
+              <div class="card">
+                <img src="images/css.jpg"  alt="">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <button class="buttons"><a href="#"> Github Link</a></button>
+                </div>
+              </div>
 
-          <li>BOOTSTRAP :<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Link</a></li>
+              <div class="card">
+                <img src="images/js.jpg"  alt="">
+                <div class="card-body">
+                  <h5 class="card-title">JAVASCRIPT</h5>
+                  <button class="buttons"><a href="#"> Github Link</a></button>
+                </div>
+              </div>
 
-          <li>JAVASCRIPT :<a href="#">github Link</a></li>
+              <div class="card">
+                <img src="images/react.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">REACT</h5>
+                  <button class="buttons"><a href="#"> Github Link</a></button>
+                </div>
+              </div>
 
-          <li>REACT :<a href="#">github Link</a></li>
-
-          <li>C++ :<a href="#">github Link</a></li>
-        </ul>
       </div>
-    </div>
-    <hr>
+      <hr>
+      <!-- education section  -->
 
+      <div class="education-section" id="education">
+        <h2>Education</h2>
+        <div class="education-box">
+          <div class="box">
+            <h3>School : <span>Govt.H.S.S jhonkar</span></h3>
+            <div class="details">
+              <p>Board : <span> MP Board</span></p>
+              <p>Class : <span>12th</span></p>
+              <p>Percentage : <span>71.6%</span></p>
+              <p>Year : <span>2019 -2020</span></p>
+            </div>
+          </div>
 
-    <!-- education section  -->
+          <div class="box">
+            <h3>College : <span>Mahakal Institute Of Technology</span></h3>
+            <div class="details">
+              <p>Univercity : <span>RGPV</span></p>
+              <p>Degree : <span>B.tech</span></p>
+              <p>Branch: <span>CSE</span></p>
+              <p>CGPA : <span>7.02</span></p>
+              <p>Year : <span>2020 -2024</span></p>
+            </div>
+          </div>
 
-    <div class="education-section" id="education">
-      <h2>Education</h2>
-      <div class="education-box">
-        <div class="box">
-          <h3>College : <span>Mahakal Institute Of Technology</span></h3>
-          <p>Univercity : <span>RGPV</span></p>
-          <p>Degree : <span>B.tech</span></p>
-          <p>Branch: <span>CSE</span></p>
-          <p>CGPA : <span>7.02</span></p>
-          <p>Year : <span>2020 -2024</span></p>
-        </div>
-
-        <div class="box">
-          <h3>School : <span>Govt.H.S.S jhonkar</span></h3>
-          <p>Board : <span> MP Board</span></p>
-          <p>Class : <span>12th</span></p>
-          <p>Percentage : <span>71.6%</span></p>
-          <p>Year : <span>2019 -2020</span></p>
-        </div>
-
-        <div class="box">
-          <h3>School : <span>Govt.H.S.S jhonkar</span></h3>
-          <p>Board : <span>MP Board</span></p>
-          <p>Class : <span>10th</span></p>
-          <p>Percentage : <span>79%</span></p>
-          <p>Year : <span>2017 -2018</span></p>
+          <div class="box">
+            <h3>School : <span>Govt.H.S.S jhonkar</span></h3>
+            <div class="details">
+              <p>Board : <span>MP Board</span></p>
+              <p>Class : <span>10th</span></p>
+              <p>Percentage : <span>79%</span></p>
+              <p>Year : <span>2017 -2018</span></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
+      <hr />
 
-
-    <!-- project section -->
+      <!-- project section -->
 
     <div class="project-section" id="projects">
-      <h2>Projects</h2>
-      <div class="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+  
+            <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
+              <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
+           
+              <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
 
-        <div>
-          <p>Project Title : <span>abcde</span></p>
-          <p>
-            About Project: <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Nemo architecto animi est odit. Dolor necessitatibus !</span>
-          </p>
+              <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
+              <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
+           
+              <div class="project-box">
+                <h5 class="card-title"><p>Project Title: <span>check prime</span></p></h5>
+                <h5 class="technology"><p>use technologies:<span> HTML,CSS,JAVASCRIPT</span></p></h5>
+                <button class="buttons"><a href="#"> Github Link</a></button>
+              </div>
+            </div>
+            </div>
+            </div>
 
-          <p>Use Technologies : <span>HTML,CSS,JAVASCRIPT</span> </p>
-
-          <p><a href="#">Project Link</a></p>
-        </div>
-
-
-        <div>
-          <p>Project Title : <span>abcde</span></p>
-
-          <p>
-            About Project:<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Nemo architecto animi est odit. Dolor necessitatibus !</span>
-          </p>
-
-          <p>
-            Technologies: <span>HTML,CSS,JAVASCRIPT</span>
-          </p>
-
-          <p><a href="#">Project Link</a></p>
-        </div>
-
-
-
-        <div>
-          <p>Project Title : <span>abcde</span></p>
-          <p>
-            About Project:<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Nemo architecto animi est odit. Dolor necessitatibus !</span>
-          </p>
-
-          <p>
-            Use Technologies: <span>HTML,CSS,JAVASCRIPT</span>
-          </p>
-
-          <p><a href="#">Project Link</a></p>
         </div>
       </div>
-    </div>
-    <hr>
 
-    <!-- contact-section -->
+      <hr>
+        <!-- contact-section -->
     <div class="contact-section" id="contact">
       <h2>Contact Me</h2>
       <form action="https://api.web3forms.com/submit" method="POST">
-         <input type="hidden" name="access_key" value="746c44c1-49d5-4cd3-a73c-9b564381881d">
+        <input type="hidden" name="access_key" value="746c44c1-49d5-4cd3-a73c-9b564381881d">
 
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input class="input-height" type="text" id="name" name="name"  required  width="48" height="48">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input class="input-height" type="email" id="email" name="email" required>
 
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit">Send Message</button>
+        <button class="buttons" type="submit">Send Message</button>
 
-        <ul>
-          <li>
-            <a href="
-            https://www.instagram.com/engineer4287?utm_source=qr&igsh=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
-
-          </li>
-          <li>
-            <a href="https://github.com/DEEPAKRAJORIYA352""> <i class="fa-brands fa-github"></i></a>
-          </li>
-          <li>
-
-            <a href="https://www.linkedin.com/in/deepak-rajoriya-a3704a22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-
-          </li>
-        </ul>
       </form>
-
-
     </div>
+    </main>
 
-    </div>
-  </main>
-
-  <script src="index.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
+
+
+
