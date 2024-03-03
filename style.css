@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -68,6 +67,7 @@ nav .icon {
 /* Home section */
 
 .home-section {
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
@@ -91,6 +91,21 @@ nav .icon {
 }
 .home-section .home-content .p2 span {
   color: red;
+}
+.home-section img{
+  padding-top: 5px;
+  aspect-ratio: 5/5;
+  object-fit: contain;
+  background-color: gray;
+  border-radius: 50%;
+}
+.home-section button{
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 1rem;
+} 
+.home-section button a{
+   text-decoration: none;
 }
 .buttons {
   height: 3rem;
@@ -290,7 +305,7 @@ buttons:hover {
   font-size: 1rem;
 }
 .project-section .projects .project-box h5 span{
-  color: #ffffff;
+  color: blue;
 }
 
 /* contact section */
@@ -329,6 +344,91 @@ buttons:hover {
    margin-top: 1.5rem;
 }
 .contact-section form button:hover{
-  color: antiquewhite;
+  background-color: #ffffff;
+  color: #000000;
 }
+
+@media(max-width:768px){
+  
+  .home-section{
+    flex-direction: column-reverse;
+    border: 2px solid red;
+  }
+  .home-section img{
+    padding-top: 3rem;
+    aspect-ratio: 6/6;
+    object-fit: contain;
+    background-color: grey;
+    border-radius:50%;
+
+  }
+  .about-content{
+    flex-direction: column;
+  }
+
+  .skills-section{
+    border: 2px solid red;
+    width: 100%;
+    padding: 0;
+
+  }
+  .skills-section .skills{
+    /* width: 100%; */
+   flex-direction: column;
+   padding: 0.5rem;
+  }
+  .skills-section .skills .card{
+    width: 100%;
+    height: 20rem;
+    background-color: grey;
+    gap: 5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  .skills-section .skills .card img{
+    width: 60%;
+    height: 60%;
+  }
+
+  .education-section{
+    padding: 0;
+  }
+  .education-box{
+    flex-direction: column;
+    padding: 1.5rem;
+    padding: 0.5rem;
+
+  }
+  .education-box .box{
+    width: 100%;
+    height: 16rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .education-box .box .details{
+    align-items: start;
+    padding-top:1.5rem; 
+    width: 50%;
+  }
+  .project-section{
+    padding: 0.5rem;
+  }
+  .project-section .projects{
+    flex-direction: column;
+  }
+  .project-section .projects .project-box {
+    width: 100%;
+  }
+  .contact-section{
+    width: 100%;
+  }
+  .contact-section form{
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
 
